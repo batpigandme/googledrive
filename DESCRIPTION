@@ -14,6 +14,7 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 Imports: curl (>= 2.8.1),
+    gargle,
     glue (>= 1.1.0),
     httr,
     jsonlite,
@@ -30,6 +31,8 @@ Suggests: covr,
   rprojroot,
   testthat
 URL: http://googledrive.tidyverse.org, https://github.com/tidyverse/googledrive
+Remotes:
+  r-lib/gargle
 BugReports: https://github.com/tidyverse/googledrive/issues
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1.9000
